@@ -1,0 +1,11 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Joti One', cursive;
+}
+
+
+li{
+    list-style-type: none;
+    height:auto;
+    width:50px; 
+}
