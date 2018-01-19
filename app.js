@@ -61,6 +61,13 @@ we create an empty one in the form of an array before continuing */
         }
         console.log("The user was created");
     });
+    
+    fs.appendFile("Users.json", data , function(err){
+        if(err){
+            return console.log(err);
+        }
+        console.log("The user was created");
+    });
         
     
     
