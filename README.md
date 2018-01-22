@@ -1,7 +1,5 @@
 # MessageBoard
-
-About:
-Simple message board
+Simple message board using Node/Express and EJS
 
 Initial SetUp:
 - npm install express --save
